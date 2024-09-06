@@ -35,28 +35,29 @@ const ProducDisplay = (props) => {
                     <div className="product-display-right-price-new">
                         ${product.new_price}
                     </div>
-                    <div className="product-display-right-description">
-                        bla bla bla bla bla bla bla bla bla bla bla blav
-                        bla bla bla bla  bla bla bla blabla bla
-                    </div>
-                    <div className="product-display-right-size">
-                        <h1>Select Size</h1>
-                        <div className="product-display-right-size">
-                            <div>S</div>
-                            <div>M</div>
-                            <div>L</div>
-                            <div>XL</div>
-                            <div>XXL</div>
-                        </div>
-                    </div>
-                    <button>ADD TO CARD</button>
-                    <p className="product-display-right-category">
-                        <span>Category : </span>Women, T-Shirt, Crop Top
-                    </p>
-                    <p className="product-display-right-category">
-                        <span>Tags : </span>Modern, Lastest
-                    </p>
                 </div>
+                <div className="product-display-right-description">
+                    bla bla bla bla bla bla bla bla bla bla bla blav
+                    bla bla bla bla  bla bla bla blabla bla
+                </div>
+                <div className="product-display-right-size">
+                    <h1>Select Size</h1>
+                    <div className="product-display-right-sizes">
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div>XL</div>
+                        <div>XXL</div>
+                    </div>
+                </div>
+                <button>ADD TO CARD</button>
+                <p className="product-display-right-category">
+                    <span>Category : </span>Women, T-Shirt, Crop Top
+                </p>
+                <p className="product-display-right-category">
+                    <span>Tags : </span>Modern, Lastest
+                </p>
+
             </div>
         </div>
     )
